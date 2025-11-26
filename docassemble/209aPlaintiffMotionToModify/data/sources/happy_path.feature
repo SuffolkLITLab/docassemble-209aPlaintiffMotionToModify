@@ -11,7 +11,7 @@ Scenario: User requests changes using max chars
   | var | value | trigger |
   | a_plaintiff_s_motion_to_modify_qc_v20009_intro | True |  |
   | a_plaintiff_s_motion_to_modify_qc_v20009_preview_question | True |  |
-  | acknowledged_information_use['I accept the terms of use.'] | True |  |
+  | acknowledged_information_use | True | |
   | docket_number | 123456789 |  |
   | is_plaintiff['I am the plaintiff'] | True |  |
   | order_type | modify |  |
