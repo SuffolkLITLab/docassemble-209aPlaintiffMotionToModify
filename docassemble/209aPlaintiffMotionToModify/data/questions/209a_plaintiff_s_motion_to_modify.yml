@@ -252,7 +252,7 @@ id: type of request
 question: |
   What are you asking the court to do?
 fields:
-  - no label: order_type
+  - "What are you asking the court to do?": order_type
     datatype: radio
     choices:
       - End this Abuse Prevention Order.: terminate 
